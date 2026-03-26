@@ -44,10 +44,4 @@ print(sine(x,n))
 ## RESULT
 Program is successfully verified.
 
-## 💻 PROGRAM:
 
-ADD CODE HERE
-
-## OUTPUT
-
-## RESULT
