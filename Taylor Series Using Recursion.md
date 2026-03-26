@@ -15,9 +15,24 @@ To write a Python program to evaluate a **Taylor Series** using **recursion**, w
 6. **Stop**
 
 ## 💻 PROGRAM:
+```
+def fact(i):
+   if i==1 or i==0:
+       return 1
+   else:
+       return i*fact(i-1)
+def sine(x,n):
+  if n==0:
+    return x
+  else:
+    return(((((-1)**n)*pow(x,(2*n+1)))/fact(2*n+1)))+sine(x,n-1)
+x=int(input())
+n=int(input())
+print(sine(x,n))
 
-ADD CODE HERE
-
+```
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/32b898c1-c61f-40d2-8295-3226a7bfcf2a)
 
 ## RESULT
+Program is successfully verified.
